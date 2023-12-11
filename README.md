@@ -19,11 +19,11 @@ Additional details:
 - There will only be one copy of each book available to borrow.
 - Database will be populated with an initial list of users.
 - Users are allowed to check out multiple books if their account is in good standing.
-- On return of a book, if late, the user account will be updated to only allow 1 book out at a time until user account is in better standing. Better standing may be earned after 5 non-late borrowed books.
+- On return of a book, if late, the user account will be updated to only allow 1 book out at a time until user account is in better standing. Better standing may be earned after 5 non-late returned books.
 - On return, user may give a rating of the book 1-5.
 - Search function will use a simple string search on title and author attributes.
 - Related books will use the current books tags to search for books with similar tags.
-- When user deletes their account the system will verify they have no books currently checked out before deleting.
+- When a user deletes their account, the system will verify they have no books currently checked out before deleting.
 
 Jupyter Notebook: library.ipnb
 
